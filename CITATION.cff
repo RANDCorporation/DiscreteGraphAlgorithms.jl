@@ -7,9 +7,8 @@ authors:
     given-names: James
     family-names: Syme
     affiliation: RAND
-repository-code: >-
-  MISSING
-url: MISSING
+repository-code: "https://github.com/RANDCorporation/DiscreteGraphAlgorithms.jl"
+url: "https://github.com/RANDCorporation/black-knights-and-dark-network"
 abstract: >-
   A number of algorithms for discrete optimization on subsets of graphs,
   including Ant Colony Optimization, Genetic, Gradient Descent, Greedy
