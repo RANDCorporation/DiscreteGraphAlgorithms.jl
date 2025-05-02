@@ -121,7 +121,7 @@ out_fragment = DiscreteGraphAlgorithms.iterate(
 
 The code only needs a Graph to work off of. This can be loaded in a Julia session and converted to a `GraphWrapper`, or a `GraphWrapper` object can be created directly using `read_egl`. See `?read_egl` for information about arguments and keyword arguments.
 
-Example data--including the Krebs terrorist network (Krebs, CITE)--are included in this package 
+Example data--including the Krebs terrorist network (Krebs, 2002)--are included in this package.
 
 
 ## Project information
