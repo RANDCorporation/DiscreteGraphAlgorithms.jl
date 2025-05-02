@@ -11,6 +11,17 @@ $$\,^DF(G) = 1 - \frac{1}{n(n - 1)}\sum_{i \not= j}d_{ij}^{-1}.$$
 In smaller graphs, optimal fragmentation can usually be calculated using a brute force combinatorial approach. However, as the number of vertices and edges grows, the problem can become computationally intractable. This package combines the power of Julia with a suite of parallelizable discrete graph optimization algorithms to make many real-world networks tractable.
 
 
+### Installation Notes
+
+`DiscreteGraphAlgorithms.jl` depends on the following packages from the RAND repository, which must be added in the following order:
+
+```
+Pkg.add(url = "https://github.com/RANDCorporation/IterativeHeaps.jl")
+Pkg.add(url = "https://github.com/RANDCorporation/GraphDistanceAlgorithms.jl")
+Pkg.add(url = "https://github.com/RANDCorporation/GraphFragments.jl")
+```
+
+
 ### `DiscreteGraphAlgorithms.jl`
 
 The `DiscreteGraphAlgorithms.jl` package includes a suite of several algorithms for discrete subgraph optimization. These algorithms identify subsets of vertices that identify local extrema of an objective function calculated on the selection of vertices included in some subgraph of size _k_. `DiscreteGraphAlgorithms.jl` allows for distributed executation of distance algorithms using data parallelization (e.g., `@distributed` instead of `@thread`) and efficient memory management, allowing for faster solution times and less memory pressure.
