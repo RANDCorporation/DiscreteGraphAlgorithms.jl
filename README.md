@@ -126,8 +126,11 @@ Example data--including the Krebs terrorist network (Krebs, CITE)--are included 
 
 ## Project information
 
-The authors are grateful to RAND Center for Global Risk and Security Advisory Board members Michael Munemann and Paul Cronson for funding this project. All code was developed between April 2023 and October 2024.
+This package is [one of five](https://github.com/RANDCorporation/black-knights-and-dark-network) created during the research phase of a RAND project.
 
+In their report [_North Korea's Black Knights and Dark Network: Towards the Disruption and Typology of DPRK Sanctions Evasion Networks_ (RAND, RR-A3413-1)](https://www.rand.org/pubs/research_reports/RRA3413-1.html) researchers describe how they created a network representation of the DPRK sanctions-evasion system, comprising over 4,100 nodes and 6,500 links derived from UN Panel of Experts reports and the Center for Advanced Defense Studies (C4ADS) dataset. Together, the five code packages supported the team's ability to rank nodes and links, calculate priority scores, and compare the results to sanctioned entities, thus offering a rigorous, computationally driven approach to network disruption and target prioritization.
+
+See the [parent repository](https://github.com/RANDCorporation/black-knights-and-dark-network) for a full list and additional details.
 
 
 ## References/Bibliography
@@ -151,7 +154,7 @@ Peixoto, T. terrorists_911 — 9-11 terrorist network. Accessed Feb 2024. Netzsc
 
 ## Copyright and License
 
-Copyright (C) <2024> RAND Corporation. This code is made available under the MIT license.
+Copyright (C) <2025> RAND Corporation. This code is made available under the MIT license.
 
  
 
@@ -159,9 +162,11 @@ Copyright (C) <2024> RAND Corporation. This code is made available under the MIT
 
 James Syme
 
-@misc{GDA2024,
+```
+@misc{DGA2025,
   author       = {Syme, James},
   title        = {DiscreteGraphAlgorithms.jl: Distributed implementation of some graph shortest distance algorithms.},
-  year         = 2024,
-  url = {URLHERE}
+  year         = 2025,
+  url          = {https://github.com/RANDCorporation/DiscreteGraphAlgorithms.jl}
 }
+```
